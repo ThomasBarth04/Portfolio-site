@@ -15,7 +15,7 @@ export const Contact = () => {
           <a href="mailto:thomasbarth@live.no"> Thomasbarth@live.no</a>
         </li>
         <li className={styles.link}>
-          <a href="www.linkedin.com/in/thomas-barth-a57052283">linkedin.com/Thomas-barth</a>
+          <a href="https://linkedin.com/in/thomas-barth-a57052283">linkedin.com/Thomas-barth</a>
         </li>
         <li className={styles.link}>
           <a href="https://github.com/ELmustasje">github.com/ELmustasje</a>
