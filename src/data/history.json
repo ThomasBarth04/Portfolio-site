@@ -1,5 +1,37 @@
 [
   {
+    "role": "Customer Support Operator",
+    "organisation": "Rayvn",
+    "startDate": "Jan, 2026",
+    "endDate": "Present",
+    "experiences": [
+      "Registering and maintaining cases in the support system.",
+      "Contributing to testing of RAYVN’s functionality and new releases.",
+      "Communicating customer needs, feedback, and feature requests to Support and R&D.",
+      "Supporting other departments as needed (administration, sales, marketing, implementation)."
+    ]
+  },
+  {
+    "role": "Teaching Assistant INF101",
+    "organisation": "University Of Bergen",
+    "startDate": "Jan, 2026",
+    "endDate": "Present",
+    "experiences": [
+      "Planing and executing group sessions for the course advanced programming",
+      "Grading students work"
+    ]
+  },
+  {
+    "role": "Teaching Assistant INF102",
+    "organisation": "University Of Bergen",
+    "startDate": "Aug, 2025",
+    "endDate": "Dec 2026",
+    "experiences": [
+      "Planing and executing group sessions for the DSA class",
+      "Grading students work"
+    ]
+  },
+  {
     "role": "Software Intern",
     "organisation": "KLP",
     "startDate": "Jun, 2025",
@@ -12,26 +44,6 @@
     ]
   },
   {
-    "role": "Board-Member",
-    "organisation": "FriByte",
-    "startDate": "Sept, 2024",
-    "endDate": "Jun, 2025",
-    "experiences": [
-      "Making complete IT solutions for other student organisations",
-      "In charge of social gatherings"
-    ]
-  },
-  {
-    "role": "Teaching Assistant INF102",
-    "organisation": "University Of Bergen",
-    "startDate": "Aug, 2025",
-    "endDate": "Present",
-    "experiences": [
-      "Planing and executing group sessions for the DSA class",
-      "Grading students work"
-    ]
-  },
-  {
     "role": "Teaching Assistant INF101",
     "organisation": "University Of Bergen",
     "startDate": "Jan, 2025",
@@ -39,6 +51,16 @@
     "experiences": [
       "Planing and executing group sessions for the course advanced programming",
       "Grading students work"
+    ]
+  },
+  {
+    "role": "Board-Member",
+    "organisation": "FriByte",
+    "startDate": "Sept, 2024",
+    "endDate": "Jun, 2025",
+    "experiences": [
+      "Making complete IT solutions for other student organisations",
+      "In charge of social gatherings"
     ]
   },
   {
