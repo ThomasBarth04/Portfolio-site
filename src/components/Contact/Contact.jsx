@@ -1,25 +1,34 @@
 import React from "react";
 
+import { Section } from "../Section/Section";
 import styles from "./Contact.module.css";
 
 export const Contact = () => {
   return (
-    <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
-      </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <a href="mailto:thomasbarth@live.no"> Thomasbarth@live.no</a>
-        </li>
-        <li className={styles.link}>
-          <a href="https://linkedin.com/in/thomas-barth-a57052283">linkedin.com/Thomas-barth</a>
-        </li>
-        <li className={styles.link}>
-          <a href="https://github.com/ELmustasje">github.com/ELmustasje</a>
-        </li>
-      </ul>
-    </footer>
+    <>
+      <Section id="contact" label="Contact" title="Want to talk? Send me a message.">
+        <p className={styles.email}>
+          <a href="mailto:thomasbarth@live.no">thomasbarth@live.no</a>
+        </p>
+        <ul className={styles.links}>
+          <li>
+            <a href="https://www.linkedin.com/in/thomas-barth-a57052283/">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ThomasBarth04">GitHub</a>
+          </li>
+        </ul>
+      </Section>
+
+      <footer className={styles.footer}>
+        <p>© {new Date().getFullYear()} Thomas Barth</p>
+        <p>
+          Design inspired by <a href="https://andersnoren.se/teman/bjork-wordpress-theme/">Björk</a> by
+          Anders Norén
+        </p>
+      </footer>
+    </>
   );
 };

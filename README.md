@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# thomasbarth — personal site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A single-page personal site: about, timeline, thoughts, projects and contact.
+Built with React (Create React App). The design is inspired by
+[Björk](https://andersnoren.se/teman/bjork-wordpress-theme/) by Anders Norén.
 
-## Available Scripts
+## Run it
 
-In the project directory, you can run:
+```sh
+npm install
+npm start        # dev server on http://localhost:3000
+npm run build    # production build in build/
+```
 
-### `npm start`
+## Editing content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+All content lives in `src/data` and `src/components/About/About.jsx`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+| What                     | Where                                |
+| ------------------------ | ------------------------------------ |
+| Intro text and "Right now" cards | `src/components/About/About.jsx` |
+| Timeline                 | `src/data/timeline.json`             |
+| Thoughts feed            | `src/data/thoughts.js`               |
+| Projects                 | `src/data/projects.json`             |
 
-### `npm test`
+### Post a thought
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Add an entry to the list in `src/data/thoughts.js` and deploy:
 
-### `npm run build`
+```js
+{
+  date: "2026-12-01",
+  title: "Optional title",
+  body: `
+First paragraph.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A blank line starts a new paragraph. Links like https://example.com
+are turned into links automatically.
+`,
+},
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The feed sorts by `date`, newest first, and shows five at a time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Add a timeline entry
 
-### `npm run eject`
+Add an object to `src/data/timeline.json`. Entries are shown in file order, so
+put new ones at the top. `type` is `work`, `education` or `volunteering` and
+drives the filter buttons. `url` and `place` can be empty strings.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Projects
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Projects with `"feature": true` are shown by default; the rest appear behind
+"Show all projects".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Styling
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Colours, type scale and spacing are CSS variables in `src/vars.css`, with a
+dark palette that follows the system setting.

@@ -1,99 +1,63 @@
 [
   {
-    "title": "SharedShopping",
-    "description": "Shopping list where multiple users can create, manage, and share shopping lists in real-time.",
-    "skills": [
-      "Go",
-      "JWT",
-      "Rest",
-      "MySQL"
-    ],
-    "source": "https://github.com/ELmustasje/SharedShopping",
+    "title": "angular-mf2",
+    "description": "The official Angular package for Unicode MessageFormat 2 (MF2), published on npm.",
+    "skills": ["TypeScript", "Angular", "i18n"],
+    "site": "https://www.npmjs.com/package/angular-mf2",
     "feature": true
-  },
-  {
-    "title": "CV To Portfolio Site Converter",
-    "description": "App to convert your CV (computer sience aimed) to a portfolio site",
-    "skills": [
-      "AI (LLM)",
-      "Python",
-      "TSX"
-    ],
-    "source": "https://github.com/ELmustasje/cv_to_portfoliosite"
-  },
-  {
-    "title": "Cup2000-head-to-head-NBF",
-    "description": "Head-to-head system for the Cup2000 tournament software",
-    "skills": [
-      "Java",
-      "Web-scraping"
-    ],
-    "source": "https://github.com/ELmustasje/Cup2000-head-to-head-NBF"
   },
   {
     "title": "Studentskatt.no",
-    "description": "A website to help students find taxbreaks and navigate all the diffrent tax rules.",
-    "skills": [
-      "TSX",
-      "Node",
-      "Vercel"
-    ],
+    "description": "A website that helps students find tax breaks and navigate all the different tax rules.",
+    "skills": ["TSX", "Node", "Vercel"],
     "site": "https://studentskatt.no",
-    "source": "https://github.com/ELmustasje/StudentSkatt",
+    "source": "https://github.com/ThomasBarth04/StudentSkatt",
     "feature": true
   },
   {
+    "title": "SharedShopping",
+    "description": "Shopping lists that several people can create, manage and share in real time.",
+    "skills": ["Go", "JWT", "REST", "MySQL"],
+    "source": "https://github.com/ThomasBarth04/SharedShopping",
+    "feature": true
+  },
+  {
+    "title": "BSI Golf API + site",
+    "description": "A Python API that puts together groups for golf training, plus a simple website to show the results.",
+    "skills": ["Python", "TSX", "API", "Vercel"],
+    "site": "https://bsi-golf-side.vercel.app",
+    "source": "https://github.com/ThomasBarth04/bsi-golf-api",
+    "feature": true
+  },
+  {
+    "title": "CV to Portfolio Site Converter",
+    "description": "An app that converts a computer science CV into a portfolio site.",
+    "skills": ["AI (LLM)", "Python", "TSX"],
+    "source": "https://github.com/ThomasBarth04/cv_to_portfoliosite"
+  },
+  {
+    "title": "Cup2000 head-to-head",
+    "description": "Head-to-head system for the Cup2000 tournament software.",
+    "skills": ["Java", "Web scraping"],
+    "source": "https://github.com/ThomasBarth04/Cup2000-head-to-head-NBF"
+  },
+  {
     "title": "Wordle with AI",
-    "description": "Project i made for univerity where we created a worlde game and an AI to solve.",
-    "skills": [
-      "AI",
-      "Algorithms",
-      "Java"
-    ],
-    "source": "https://github.com/ELmustasje/Wordle"
+    "description": "A university project: a Wordle game and an AI that solves it.",
+    "skills": ["AI", "Algorithms", "Java"],
+    "source": "https://github.com/ThomasBarth04/Wordle"
   },
   {
     "title": "Douchebag Simulator",
-    "description": "Game i made for fun where i tried to recrate the game Douchebag Simulator in Java.",
-    "skills": [
-      "Java",
-      "Game Development"
-    ],
-    "source": "https://github.com/ELmustasje/Douchebag-Sim",
+    "description": "A just-for-fun attempt at recreating the game Douchebag Simulator in Java.",
+    "skills": ["Java", "Game development"],
+    "source": "https://github.com/ThomasBarth04/Douchebag-Sim",
     "demo": "https://youtu.be/rYBXnI9_Uxo"
   },
   {
     "title": "Simple Filesystem",
-    "description": "Created a filesystem in Python to learn about how OS and filesystems does filehandling. ",
-    "skills": [
-      "Python",
-      "Low-Level",
-      "OS"
-    ],
-    "source": "https://github.com/ELmustasje/simple-filesystem"
-  },
-  {
-    "title": "Portfolio Site",
-    "description": "Created a Simple site to showcase my work and experiences. I aslo used it to learn CSS",
-    "skills": [
-      "TSX",
-      "Node",
-      "Vercel",
-      "CSS"
-    ],
-    "site": "/",
-    "source": "https://github.com/ELmustasje/Portfolio-site"
-  },
-  {
-    "title": "BSI golf API + site",
-    "description": "Created an api in python to create groups for golf training + simple webite to display results",
-    "skills": [
-      "TSX",
-      "Python",
-      "Vercel",
-      "API"
-    ],
-    "site": "https://bsi-golf-side.vercel.app",
-    "source": "https://github.com/ELmustasje/bsi-golf-api"
+    "description": "A filesystem written in Python to learn how operating systems handle files.",
+    "skills": ["Python", "Low-level", "OS"],
+    "source": "https://github.com/ThomasBarth04/simple-filesystem"
   }
 ]

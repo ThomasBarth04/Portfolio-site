@@ -1,18 +1,22 @@
 import styles from "./App.module.css";
+import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
-import { Experience } from "./components/Experience/Experience";
-import { Hero } from "./components/Hero/Hero";
-import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { Sidebar } from "./components/Sidebar/Sidebar";
+import { Thoughts } from "./components/Thoughts/Thoughts";
+import { Timeline } from "./components/Timeline/Timeline";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero /> <Projects />
-      <Experience />
-
-      <Contact />
+    <div className={styles.page}>
+      <Sidebar />
+      <main className={styles.main}>
+        <About />
+        <Timeline />
+        <Thoughts />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }

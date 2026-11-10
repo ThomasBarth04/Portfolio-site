@@ -1,0 +1,25 @@
+.section {
+  /* Anchor links land with the same breathing room the page starts with */
+  scroll-margin-top: var(--gutter);
+}
+
+.label {
+  margin-bottom: 20px;
+  color: var(--secondary);
+  font-size: var(--fs-large);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.title,
+.leadTitle {
+  max-width: 21em;
+  font-size: var(--fs-huge);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.title {
+  font-size: clamp(30px, 1.9rem + (1vw - 3.2px) * 1.2, 48px);
+}

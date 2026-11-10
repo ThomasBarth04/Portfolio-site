@@ -1,11 +1,37 @@
+/* Design tokens. Palette and type scale follow Anders Norén's Björk theme. */
 :root {
-  /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #0F0E47;
+  --fg: #111111;
+  --bg: #ffffff;
+  --primary: #5857ff;
+  --secondary: #6b6a6a;
+  --tertiary: #e2e2e2;
+  --quaternary: #f3f2f2;
+  --on-primary: #ffffff;
 
-  /* Fonts */
-  --font-roboto: "Roboto";
+  --font: "Albert Sans Variable", ui-sans-serif, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  --fs-tiny: clamp(14px, 0.875rem + (1vw - 3.2px) * 0.147, 16px);
+  --fs-small: clamp(16px, 1rem + (1vw - 3.2px) * 0.147, 18px);
+  --fs-medium: clamp(17px, 1.063rem + (1vw - 3.2px) * 0.294, 21px);
+  --fs-large: clamp(21px, 1.313rem + (1vw - 3.2px) * 0.221, 24px);
+  --fs-xl: clamp(24px, 1.5rem + (1vw - 3.2px) * 0.588, 32px);
+  --fs-huge: clamp(36px, 2.25rem + (1vw - 3.2px) * 2.059, 64px);
+
+  --gutter: clamp(20px, 4.4vw, 64px);
+  --gap: 32px;
+  --section-gap: clamp(88px, 11vw, 160px);
+  --measure: 40rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg: #f3f2f2;
+    --bg: #111111;
+    --primary: #908fff;
+    --secondary: #a09f9f;
+    --tertiary: #2e2e2e;
+    --quaternary: #1b1b1b;
+    --on-primary: #111111;
+  }
 }
