@@ -1,0 +1,138 @@
+[
+  {
+    "period": "Nov 2026 – Present",
+    "title": "Lead Developer and Co-owner",
+    "org": "Astriid",
+    "url": "https://astriid.no",
+    "place": "Oslo",
+    "type": "work",
+    "points": [
+      "Responsible for the backend and the development of AI in Astriid, a system that gathers media monitoring, case work, strategy, insight and impact measurement for communications teams in one place.",
+      "Built to understand Norwegian context rather than translated from English, with all data kept inside the EU."
+    ]
+  },
+  {
+    "period": "Aug 2026 – Present",
+    "title": "Tech Consultant",
+    "org": "Junior Consulting",
+    "url": "https://www.jrc.no",
+    "place": "Trondheim",
+    "type": "work",
+    "points": [
+      "Currently on a client project at Vespa.ai.",
+      "Deliver software projects for external clients alongside full-time studies."
+    ]
+  },
+  {
+    "period": "Aug 2026 – Present",
+    "title": "Bedriftskomiteen (Bedkom)",
+    "org": "Online, Student Association for Informatics, NTNU",
+    "url": "https://online.ntnu.no",
+    "place": "Trondheim",
+    "type": "volunteering",
+    "points": [
+      "Arrange company presentations and events connecting informatics students with industry partners."
+    ]
+  },
+  {
+    "period": "Aug 2026 – Jun 2028",
+    "title": "MSc in Informatics: Artificial Intelligence",
+    "org": "Norwegian University of Science and Technology (NTNU)",
+    "url": "https://www.ntnu.edu",
+    "place": "Trondheim",
+    "type": "education",
+    "points": []
+  },
+  {
+    "period": "Jan 2026 – Nov 2026",
+    "title": "Backend Developer",
+    "org": "RAYVN",
+    "url": "https://rayvn.global",
+    "place": "Bergen",
+    "type": "work",
+    "points": [
+      "Worked on API and SCIM integrations end-to-end.",
+      "Led meetings about potential new and existing integrations, bug fixes and new features across systems."
+    ]
+  },
+  {
+    "period": "Summer 2026",
+    "title": "Backend / AI Developer",
+    "org": "Kantega (client: RAYVN)",
+    "url": "https://www.kantega.no",
+    "place": "Bergen",
+    "type": "work",
+    "points": [
+      "Built an AI card generator that turns a customer's natural-language request into a deployable data-visualization card.",
+      "Designed the security model with no LLM in the security path."
+    ]
+  },
+  {
+    "period": "Nov 2025 – Jun 2026",
+    "title": "Creator, angular-mf2",
+    "org": "Unicode org",
+    "url": "https://www.npmjs.com/package/angular-mf2",
+    "place": "",
+    "type": "work",
+    "points": [
+      "Creator of the official angular-mf2 npm package."
+    ]
+  },
+  {
+    "period": "Summer 2025",
+    "title": "Backend Developer",
+    "org": "KLP Teknologi",
+    "url": "https://www.klp.no",
+    "place": "Oslo",
+    "type": "work",
+    "points": [
+      "Full-stack development with Java (backend) and React (frontend) on a pension case-management system.",
+      "Shipped 30+ improvements to production in an Agile team, enhancing efficiency for users and customers."
+    ]
+  },
+  {
+    "period": "Sep 2024 – Jun 2026",
+    "title": "Teaching Assistant",
+    "org": "University of Bergen",
+    "url": "https://www.uib.no",
+    "place": "Bergen",
+    "type": "work",
+    "points": [
+      "Five consecutive semesters as a TA, planning and running group sessions and grading student work.",
+      "Courses: intro to programming, advanced programming, and data structures and algorithms."
+    ]
+  },
+  {
+    "period": "Sep 2024 – Jun 2025",
+    "title": "Board Member",
+    "org": "FriByte",
+    "url": "https://fribyte.no",
+    "place": "Bergen",
+    "type": "volunteering",
+    "points": [
+      "Developed and ran secure IT systems for cultural organizations, student media and student political groups."
+    ]
+  },
+  {
+    "period": "Aug 2023 – Jun 2026",
+    "title": "BSc in Computer Science",
+    "org": "University of Bergen",
+    "url": "https://www.uib.no",
+    "place": "Bergen",
+    "type": "education",
+    "points": [
+      "GPA 4.4 out of 5."
+    ]
+  },
+  {
+    "period": "Jun 2022 – Apr 2025",
+    "title": "Badminton Coach",
+    "org": "Badmintonkretsen Vest",
+    "url": "",
+    "place": "Bergen",
+    "type": "work",
+    "points": [
+      "Planned and ran training sessions for young kids."
+    ]
+  }
+]

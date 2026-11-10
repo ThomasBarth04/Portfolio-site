@@ -1,0 +1,72 @@
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.story {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap);
+  margin-top: clamp(56px, 7vw, 96px);
+}
+
+.story p + p {
+  margin-top: 1em;
+}
+
+.nowTitle {
+  margin-top: clamp(56px, 7vw, 96px);
+  color: var(--secondary);
+  font-size: var(--fs-large);
+}
+
+.now {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  background: var(--quaternary);
+}
+
+.kicker {
+  color: var(--primary);
+  font-size: var(--fs-tiny);
+  font-weight: 600;
+}
+
+.cardTitle {
+  margin-top: 6px;
+  font-size: var(--fs-xl);
+}
+
+.cardText {
+  margin: 16px 0 24px;
+  font-size: var(--fs-small);
+}
+
+.cardLink {
+  margin-top: auto;
+  font-size: var(--fs-small);
+  font-weight: 600;
+}
+
+@media (max-width: 1100px) {
+  .now {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .story {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1em;
+  }
+}
